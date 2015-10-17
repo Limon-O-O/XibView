@@ -12,6 +12,8 @@
 		3F6210DA1BD2262F000CBEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6210D81BD2262F000CBEFB /* Main.storyboard */; };
 		3F6210DC1BD2262F000CBEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6210DB1BD2262F000CBEFB /* Assets.xcassets */; };
 		3F6210DF1BD2262F000CBEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6210DD1BD2262F000CBEFB /* LaunchScreen.storyboard */; };
+		3F6210E71BD226B6000CBEFB /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6210E61BD226B6000CBEFB /* XibView.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6210E91BD226C5000CBEFB /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6210E81BD226C5000CBEFB /* XibView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F6210DB1BD2262F000CBEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6210DE1BD2262F000CBEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6210E01BD2262F000CBEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6210E61BD226B6000CBEFB /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		3F6210E81BD226C5000CBEFB /* XibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3F6210DB1BD2262F000CBEFB /* Assets.xcassets */,
 				3F6210DD1BD2262F000CBEFB /* LaunchScreen.storyboard */,
 				3F6210E01BD2262F000CBEFB /* Info.plist */,
+				3F6210E61BD226B6000CBEFB /* XibView.swift */,
+				3F6210E81BD226C5000CBEFB /* XibView.xib */,
 			);
 			path = XibView;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			files = (
 				3F6210DF1BD2262F000CBEFB /* LaunchScreen.storyboard in Resources */,
 				3F6210DC1BD2262F000CBEFB /* Assets.xcassets in Resources */,
+				3F6210E91BD226C5000CBEFB /* XibView.xib in Resources */,
 				3F6210DA1BD2262F000CBEFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6210D71BD2262F000CBEFB /* ViewController.swift in Sources */,
+				3F6210E71BD226B6000CBEFB /* XibView.swift in Sources */,
 				3F6210D51BD2262F000CBEFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
